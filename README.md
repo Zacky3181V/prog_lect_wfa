@@ -27,5 +27,5 @@ git clone https://github.com/Zacky3181V/prog_lect_wfa
 4. Run! 
 
 ## Screenshots
-![first app](https://imgur.com/ygRHBcU)
-![second_app](https://imgur.com/7M9ZREH)
+![first app](https://imgur.com/ygRHBcU.jpg)
+![second_app](https://imgur.com/7M9ZREH.jpg)
