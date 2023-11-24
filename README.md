@@ -8,7 +8,6 @@
 ## General Info
 These two tiny applications were made in educational aim - learning basics of WFA library. Project consist of one solution and two projects inside
 
-
 ##Technologies
 * Visual Studio 2019
 * .NET Framework 4.6.1
