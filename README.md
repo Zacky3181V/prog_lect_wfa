@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Screenshots](#screenshots)
 
 ## General Info
 
@@ -25,3 +26,6 @@ git clone https://github.com/Zacky3181V/prog_lect_wfa
 3. Before running choose which project you would like to Run
 4. Run! 
 
+## Screenshots
+![first app](https://imgur.com/ygRHBcU)
+![second_app](https://imgur.com/7M9ZREH)
