@@ -1,6 +1,6 @@
 # WFA application examples
 
-##Table of contents
+## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -9,7 +9,7 @@
 
 These two tiny applications were made in educational aim - learning basics of WFA library. Project consist of one solution and two projects inside
 
-##Technologies
+## Technologies
 
 * Visual Studio 2019
 * .NET Framework 4.6.1
