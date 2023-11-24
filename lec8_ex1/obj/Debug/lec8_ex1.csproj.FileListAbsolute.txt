@@ -1,0 +1,15 @@
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\bin\Debug\lec8_ex1.exe.config
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\bin\Debug\lec8_ex1.exe
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\bin\Debug\lec8_ex1.pdb
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1.csproj.AssemblyReference.cache
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\MainWindow.g.cs
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\App.g.cs
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1_MarkupCompile.cache
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1_MarkupCompile.lref
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\MainWindow.baml
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1.g.resources
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1.Properties.Resources.resources
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1.csproj.GenerateResource.cache
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1.csproj.CoreCompileInputs.cache
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1.exe
+C:\Users\Daniyar\source\repos2019\lec8_ex1\lec8_ex1\obj\Debug\lec8_ex1.pdb

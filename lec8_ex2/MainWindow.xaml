@@ -1,0 +1,49 @@
+﻿<Window x:Class="lec8_ex2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lec8_ex2"
+        mc:Ignorable="d"
+        Title="ToDo" Height="387.624" Width="771.875">
+    <Grid>
+        <DockPanel Margin="10">
+            <StackPanel DockPanel.Dock="Right" Margin="10,0">
+                <StackPanel.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Margin" Value="0,0,0,5" />
+                        <Setter Property="Background" Value="Aqua" />
+                    </Style>
+                </StackPanel.Resources>
+                <TextBlock FontWeight="Bold" Margin="0,0,0,10">ListBox selection</TextBlock>
+                <Button Name="btnShowSelectedItem" Click="btnShowSelectedItem_Click">Show selected</Button>
+                <Button Name="btnSelectLast" Click="btnSelectLast_Click">Show last</Button>
+                <Button Name="btnSelectNext" Click="btnSelectNext_Click">Show next</Button>
+                <Button Name="btnSelectAll" Click="btnSelectAll_Click">Show all</Button>
+            </StackPanel>
+            <ListBox Name="lbTodoList" HorizontalAlignment="stretch" SelectionMode="Extended" SelectionChanged="lbTodoList_SelectionChanged" Margin="0,0,0,64.4">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="100" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{Binding Title}" />
+                            <ProgressBar Grid.Column="1" Minimum="0" Maximum="100" Value="{Binding Completion}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </DockPanel>
+
+        <Button Content="Add" HorizontalAlignment="Left" Height="24" Margin="471,315,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" />
+        <TextBox Name="t1" HorizontalAlignment="Left" Height="23" Margin="187,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBox Name="t2" HorizontalAlignment="Left" Height="23" Margin="331,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Button Content="Delete" HorizontalAlignment="Left" Height="23" Margin="564,316,0,0"
+                VerticalAlignment="Top" Width="75" Click="Button_Click_1" />
+
+        <TextBlock HorizontalAlignment="Left" Margin="187,295,0,0" TextWrapping="Wrap" Text="Enter Completion" VerticalAlignment="Top" FontWeight="Bold" />
+    </Grid>
+</Window>
